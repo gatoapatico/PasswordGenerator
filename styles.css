@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "karla";
+    src: url(Karla-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "inter-regular";
+    src: url(Inter-Regular.ttf);
+}
+@font-face {
+    font-family: "inter-medium";
+    src: url(Inter-Medium.ttf);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #1c1c1c;
+    color: white;
+    font-family: "karla";
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 550px;
+    height: 550px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subcontainer {
+    width: 446px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+#txt1 {
+    display: block;
+    color: #4adf86;
+}
+
+p {
+    font-family: "inter-regular";
+    font-size: 20px;
+    margin: 10px 0;
+    color: #d5d4d8;
+}
+
+#btn {
+    font-family: "inter-medium";
+    font-size: 16px;
+    color: white;
+    background-color: #10b981;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+    margin-top: 51px;
+}
+
+#btn:active {
+    background-color: #0f996b;
+}
+
+.stroke {
+    border-bottom: 1px solid #2f3e53;
+    margin-top: 35px;
+}
+
+#boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-pass {
+    width: 211px;
+    height: 39px;
+    background-color: #273549;
+    border-radius: 6px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-pass {
+    font-family: "inter-medium";
+    font-size: 16px;
+    color: #55f991;
+}
